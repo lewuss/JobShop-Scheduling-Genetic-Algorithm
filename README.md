@@ -18,7 +18,6 @@ Repeat until you get a satisfying result
 3. Mutate the chromosomes (swap random genes).
 4. Calculate the makespan of each chromosome. 
 5. Select the best chromosomes based on the makespan from the starting population and the evolved one.
-*/
 
 Print out the best sequence of putting the jobs on machines.
 
