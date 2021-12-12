@@ -13,17 +13,13 @@ Chromosome length - J*M
 Generate a random population with a rule that in each chromosomes of length J*M every job appears M times.
 
 Repeat until you get a satisfying result 
-
-Crossover the chromosomes (random part of chromosome A becames the coresponding part of chromosome B).
-
-Repair chromosomes so that that every job still appears M times.
-
-Mutate the chromosomes (swap random genes).
-
-Calculate the makespan of each chromosome. 
-
-Select the best chromosomes based on the makespan from the starting population and the evolved one.
-
+/*:
+1. Crossover the chromosomes (random part of chromosome A becames the coresponding part of chromosome B).
+2. Repair chromosomes so that that every job still appears M times.
+3. Mutate the chromosomes (swap random genes).
+4. Calculate the makespan of each chromosome. 
+5. Select the best chromosomes based on the makespan from the starting population and the evolved one.
+*/
 
 Print out the best sequence of putting the jobs on machines.
 
