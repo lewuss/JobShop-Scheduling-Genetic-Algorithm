@@ -13,7 +13,7 @@ Chromosome length - J*M
 Generate a random population with a rule that in each chromosomes of length J*M every job appears M times.
 
 Repeat until you get a satisfying result 
-/*:
+/*
 1. Crossover the chromosomes (random part of chromosome A becames the coresponding part of chromosome B).
 2. Repair chromosomes so that that every job still appears M times.
 3. Mutate the chromosomes (swap random genes).
