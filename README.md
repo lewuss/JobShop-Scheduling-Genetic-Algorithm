@@ -6,7 +6,7 @@ Genetic Algorithm solution to a Job Shop Scheduling problem. Flexible for Beasle
 
 J - number of jobs\
 M - number of machines\
-Chromosome length - J*M\
+Chromosome length - J*M
 
 Generate a random population with a rule that in each chromosomes of length J*M every job appears M times.
 
